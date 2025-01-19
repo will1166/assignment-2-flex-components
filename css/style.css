@@ -25,4 +25,10 @@ body {
   .icon {
     font-size: 4rem;
   }
-  
+
+  main {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
