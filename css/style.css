@@ -43,3 +43,7 @@ body {
   .emoji > span {
     align-self: center;
   }
+
+  .emoji > a {
+    align-self: center flex-end;
+  }
