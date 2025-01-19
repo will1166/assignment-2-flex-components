@@ -37,4 +37,9 @@ body {
   .emoji { 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+
+  .emoji > span {
+    align-self: center;
   }
