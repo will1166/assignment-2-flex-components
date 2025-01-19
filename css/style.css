@@ -44,6 +44,12 @@ body {
     align-self: center;
   }
 
+  .emoji > h2, 
+  .emoji > p {
+    order: 1;
+  }
+
   .emoji > a {
     align-self: center flex-end;
+    order: 2;
   }
