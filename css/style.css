@@ -38,7 +38,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start center;
   }
 
   .emoji > span {
@@ -53,10 +52,9 @@ body {
   }
 
   .emoji > a {
-    align-self: center flex-end;
     order: 2;
   }
 
-  main > .emojis > div:nth-child(4) > h2{
-    align-self: stretch flex-start;
-  }
+  /* main > .emojis > div:nth-child(4) > h2{
+    /* align-self: stretch flex-start; */
+  } */
