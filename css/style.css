@@ -26,9 +26,15 @@ body {
     font-size: 4rem;
   }
 
-  main {
-    width: 1000px;
+  main .emojis {
+    width: 1000px;   
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .emoji { 
+    display: flex;
+    flex-direction: column;
   }
