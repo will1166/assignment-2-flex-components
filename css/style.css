@@ -1,6 +1,13 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+} 
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
+    margin: 10px;
   }
   
   .emoji {
@@ -27,7 +34,7 @@ body {
   }
 
   main > .emojis {
-    width: 1000px;   
+    max-width: 1000px;   
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
@@ -38,23 +45,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: auto;
   }
 
   .emoji > span {
     align-self: center;
-    margin: 0;
   }
 
   .emoji > h2,
   .emoji > p {
-    margin: 0;
     order: 1;
   }
 
   .emoji > a {
     order: 2;
+    margin-top: auto;
   }
-
-  /* main > .emojis > div:nth-child(4) > h2{
-    /* align-self: stretch flex-start; */
-  } */
