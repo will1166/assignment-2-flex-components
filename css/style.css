@@ -33,6 +33,9 @@ body {
     font-size: 4rem;
   }
 
+  .siteheader{ 
+    margin-bottom: 20px;
+  }
   main > .emojis {
     max-width: 1000px;   
     display: grid;
