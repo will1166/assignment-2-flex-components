@@ -77,4 +77,5 @@ body {
   .emoji > a {
     order: 2;
     margin-top: auto;
+    /* align-items: flex-end; */
   }
